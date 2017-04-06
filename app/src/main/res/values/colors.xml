@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blue_bg">#4E76A9</color>
+    <color name="blue">#4E76A9</color>
+    <color name="halfwhite">#000</color>
+    <color name="qianlan">#4E76A9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="calendar_top_bg">#F5A0B3</color>
+    <color name="black">#000</color>
+    <color name="btn_color">#a1abb3</color>
+    <color name="gray">#a1abb3</color>
+    <color name="base">#f5f8fa</color>
+    <color name="light_gray">#fff5f5f5</color>
+    <color name="pressed">#058C8C8C</color>
+    <color name="font2">#9AA5AE</color>
+    <color name="font3">#676B70</color>
+    <color name="fenge">#e1e8ed</color>
+    <color name="font1">#5c6166</color>
+    <color name="qiangray">#7f7f7f</color>
+    <color name="light_biue">#8acada</color>
+    <color name="biaotilan">#4E76A9</color>
+    <color name="d_blue">#4E76D1</color>
+
+    <color name="dark_bg">@color/base</color>
+    <color name="popup_left_bg">@color/base</color>
+    <color name="popup_right_bg">#ddd</color>
+    <color name="popup_right_bg_selected">#ccc</color>
+
+    <color name="div_gray">#ccc</color>
+    <color name="hui">#969696</color>
+    <color name="barback">#97FFFF</color>
+    <color name="btnclick">#878787</color>
+
+    <color name="green">#49c991</color>
+    <color name="red">#ef8388</color>
+    <color name="Texthuise">#d0d5d9</color>
+    <color name="shenhuise">#5c6166</color>
+    <color name="blue1">#3BC4EB</color>
+    <color name="lvse">#49C991</color>
+    <color name="touming">#00000000</color>
+    <color name="chengse">#ff9d1c</color>
+    <color name="history_data_color1">#f7b531</color>
+    <color name="history_data_color2">#4f76a9</color>
+    <color name="history_data_color3">#ef464e</color>
+    <color name="history_data_color4">#70c49f</color>
+    <color name="history_data_textcolor">#70c49f</color>
+
+    <color name="bumanyi">#ef535d</color>
+    <color name="manyi">#4f76a9</color>
+
+    <color name="gray_button">#cacaca</color>
+    <color name="juse">#ffa400</color>
+</resources>

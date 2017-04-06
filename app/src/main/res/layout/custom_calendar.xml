@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_calendar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:orientation="vertical"
+    android:background="@color/blue">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/calendarLeft"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@drawable/shangyiye"
+            android:layout_marginLeft="65dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:id="@+id/calendarCenter"
+            style="@style/main_bar_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <ImageView
+            android:id="@+id/calendarRight"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/xiayiye"
+            android:layout_marginRight="65dp"
+            android:layout_alignTop="@+id/calendarLeft"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+    <yiwen.com.myapplication.View.CalendarView
+        android:id="@+id/custom_calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/calendarCenter" />
+
+</LinearLayout>
